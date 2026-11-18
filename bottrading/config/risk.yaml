@@ -1,0 +1,17 @@
+# Parámetros de riesgo y simulación. El LLM NO puede modificarlos.
+# Solo se cambian editando este archivo o con PUT /api/config/risk (requiere API key).
+initial_capital: 50000        # unidades de USDT, repartidas en partes iguales entre los símbolos
+symbols: [BTCUSDT, ETHUSDT, SOLUSDT, ADAUSDT]
+fee_rate: 0.0                 # 0.0 % por compra/venta (MEXC spot sin comisión, según el protocolo)
+slippage_bps: 5               # SUPUESTO académico de deslizamiento: 5 puntos base por ejecución
+max_position_fraction: 1.0    # fracción del efectivo de cada símbolo que puede entrar en una compra
+max_total_exposure: 0.90      # máximo del patrimonio total invertido en cripto
+max_daily_loss: 0.05          # pérdida máxima por vela diaria en un símbolo antes de bloquear órdenes
+max_data_age_hours: 36        # antigüedad máxima de la última vela cerrada
+# Reglas por par. qty_step y min_notional son valores de ejemplo: VERIFÍCALOS en la documentación/exchangeInfo de MEXC.
+# delta: umbral de señal elegido con VA en el notebook (sustituye estos valores por los tuyos).
+symbol_rules:
+  BTCUSDT: {qty_step: 0.000001, min_notional: 5, delta: 0.001}
+  ETHUSDT: {qty_step: 0.0001,   min_notional: 5, delta: 0.001}
+  SOLUSDT: {qty_step: 0.001,    min_notional: 5, delta: 0.001}
+  ADAUSDT: {qty_step: 0.01,     min_notional: 5, delta: 0.001}

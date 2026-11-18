@@ -1,0 +1,12 @@
+{
+  "python": "3.12.5",
+  "pandas": "2.2.3",
+  "numpy": "2.2.6",
+  "scikit-learn": "1.6.1",
+  "scipy": "1.14.1",
+  "matplotlib": "3.9.2",
+  "requests": "2.32.5",
+  "semilla": 42,
+  "dispositivo": "CPU (Avance 1: sin redes profundas)",
+  "fecha_ejecucion_utc": "2026-11-18T04:51:00+00:00"
+}

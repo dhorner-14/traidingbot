@@ -1,0 +1,8 @@
+campo,tipo,descripción
+fecha (índice),datetime UTC,Apertura de la vela diaria (00:00 UTC)
+open / high / low / close,"float, USDT","Precios de apertura, máximo, mínimo y cierre; sin ajustes"
+volume,"float, moneda base",Volumen negociado en la moneda base (p. ej. BTC)
+quote_volume,"float, USDT",Volumen en la moneda cotizada (si la fuente lo provee)
+r_t-k,float,Rendimiento simple de la vela t−k: C_{t-k}/C_{t-k-1} − 1 (entrada del modelo)
+y,float,Objetivo: P_{t+1}/P_t − 1 (rendimiento del siguiente día)
+emision / objetivo,datetime UTC,Fecha t en que se emite el pronóstico y fecha t+1 del objetivo

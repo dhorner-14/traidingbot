@@ -1,0 +1,42 @@
+{
+  "BTCUSDT": {
+    "fuente": "MEXC Spot API v3 · GET /api/v3/klines",
+    "simbolo": "BTCUSDT",
+    "intervalo": "1d",
+    "fecha_descarga_utc": "2026-11-18T04:51:01+00:00",
+    "filas_recibidas": 500,
+    "moneda_cotizada": "USDT",
+    "zona_horaria": "UTC",
+    "ajustes": "ninguno (cripto: sin dividendos ni particiones)"
+  },
+  "ETHUSDT": {
+    "fuente": "MEXC Spot API v3 · GET /api/v3/klines",
+    "simbolo": "ETHUSDT",
+    "intervalo": "1d",
+    "fecha_descarga_utc": "2026-11-18T04:51:02+00:00",
+    "filas_recibidas": 500,
+    "moneda_cotizada": "USDT",
+    "zona_horaria": "UTC",
+    "ajustes": "ninguno (cripto: sin dividendos ni particiones)"
+  },
+  "SOLUSDT": {
+    "fuente": "MEXC Spot API v3 · GET /api/v3/klines",
+    "simbolo": "SOLUSDT",
+    "intervalo": "1d",
+    "fecha_descarga_utc": "2026-11-18T04:51:03+00:00",
+    "filas_recibidas": 500,
+    "moneda_cotizada": "USDT",
+    "zona_horaria": "UTC",
+    "ajustes": "ninguno (cripto: sin dividendos ni particiones)"
+  },
+  "ADAUSDT": {
+    "fuente": "MEXC Spot API v3 · GET /api/v3/klines",
+    "simbolo": "ADAUSDT",
+    "intervalo": "1d",
+    "fecha_descarga_utc": "2026-11-18T04:51:03+00:00",
+    "filas_recibidas": 500,
+    "moneda_cotizada": "USDT",
+    "zona_horaria": "UTC",
+    "ajustes": "ninguno (cripto: sin dividendos ni particiones)"
+  }
+}

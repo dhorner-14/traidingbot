@@ -1,0 +1,17 @@
+id,capitulo,activo,modelo,variables,configuracion,semilla,dispositivo,tiempo_s,conjunto,n,MAE,RMSE,precision_direccional
+c7-BTCUSDT-cero-TR,7,BTCUSDT,cero,20 rezagos de rendimiento,yhat = 0,42,CPU,0.0,TR,1612,0.022355418098162685,0.03233791066914148,
+c7-BTCUSDT-cero-VA,7,BTCUSDT,cero,20 rezagos de rendimiento,yhat = 0,42,CPU,0.0,VA,345,0.01597304977355402,0.022178997763469658,
+c7-BTCUSDT-regresion_lineal-TR,7,BTCUSDT,regresion_lineal,20 rezagos de rendimiento,OLS sobre 20 rezagos escalados,42,CPU,0.0102,TR,1612,0.02232072222886266,0.03208396030388645,0.5279156327543424
+c7-BTCUSDT-regresion_lineal-VA,7,BTCUSDT,regresion_lineal,20 rezagos de rendimiento,OLS sobre 20 rezagos escalados,42,CPU,0.0102,VA,345,0.01615916971107694,0.02226701558628622,0.4985507246376812
+c7-ETHUSDT-cero-TR,7,ETHUSDT,cero,20 rezagos de rendimiento,yhat = 0,42,CPU,0.0,TR,1612,0.02940508201496424,0.042225616759713674,
+c7-ETHUSDT-cero-VA,7,ETHUSDT,cero,20 rezagos de rendimiento,yhat = 0,42,CPU,0.0,VA,345,0.027760718307256276,0.03979484512358446,
+c7-ETHUSDT-regresion_lineal-TR,7,ETHUSDT,regresion_lineal,20 rezagos de rendimiento,OLS sobre 20 rezagos escalados,42,CPU,0.0011,TR,1612,0.02915965759286711,0.04169802604934933,0.5570719602977667
+c7-ETHUSDT-regresion_lineal-VA,7,ETHUSDT,regresion_lineal,20 rezagos de rendimiento,OLS sobre 20 rezagos escalados,42,CPU,0.0011,VA,345,0.028077856584856255,0.03989996140973268,0.518840579710145
+c7-SOLUSDT-cero-TR,7,SOLUSDT,cero,20 rezagos de rendimiento,yhat = 0,42,CPU,0.0,TR,1612,0.04625611758579223,0.06678342893020868,
+c7-SOLUSDT-cero-VA,7,SOLUSDT,cero,20 rezagos de rendimiento,yhat = 0,42,CPU,0.0,VA,345,0.033771099015998986,0.04613954663458129,
+c7-SOLUSDT-regresion_lineal-TR,7,SOLUSDT,regresion_lineal,20 rezagos de rendimiento,OLS sobre 20 rezagos escalados,42,CPU,0.0017,TR,1612,0.046445502151240055,0.06578303696946645,0.5235732009925558
+c7-SOLUSDT-regresion_lineal-VA,7,SOLUSDT,regresion_lineal,20 rezagos de rendimiento,OLS sobre 20 rezagos escalados,42,CPU,0.0017,VA,345,0.03475647991090714,0.04688160028190892,0.47093023255813954
+c7-ADAUSDT-cero-TR,7,ADAUSDT,cero,20 rezagos de rendimiento,yhat = 0,42,CPU,0.0,TR,1612,0.035378776397432025,0.05136718295785405,
+c7-ADAUSDT-cero-VA,7,ADAUSDT,cero,20 rezagos de rendimiento,yhat = 0,42,CPU,0.0,VA,345,0.034935748509236926,0.05966955563155865,
+c7-ADAUSDT-regresion_lineal-TR,7,ADAUSDT,regresion_lineal,20 rezagos de rendimiento,OLS sobre 20 rezagos escalados,42,CPU,0.0014,TR,1612,0.03536509981984824,0.05077217725095617,0.5344506517690876
+c7-ADAUSDT-regresion_lineal-VA,7,ADAUSDT,regresion_lineal,20 rezagos de rendimiento,OLS sobre 20 rezagos escalados,42,CPU,0.0014,VA,345,0.035574677927538885,0.06005812567369516,0.45217391304347826

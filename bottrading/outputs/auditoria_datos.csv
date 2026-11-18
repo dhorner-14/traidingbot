@@ -1,0 +1,5 @@
+simbolo,filas_raw,desordenadas,duplicadas,nulos_o_infinitos,precio_no_positivo,volumen_negativo,ohlc_incoherente,vela_abierta_excluida,volumen_cero_conservado,filas_validas,fecha_min,fecha_max,huecos_calendario,dias_faltantes,cumple_min
+BTCUSDT,3311,0,0,0,0,0,0,1,0,3310,2017-10-25,2026-11-17,1,1,True
+ETHUSDT,3311,0,0,0,0,0,0,1,0,3310,2017-10-25,2026-11-17,1,1,True
+SOLUSDT,2325,0,0,0,0,0,0,1,0,2324,2020-07-08,2026-11-17,0,0,True
+ADAUSDT,2701,0,0,0,0,0,0,1,0,2700,2019-06-28,2026-11-17,0,0,True
